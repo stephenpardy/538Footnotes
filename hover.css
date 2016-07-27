@@ -1,0 +1,18 @@
+/* Tooltip text */
+.footnote-link .tooltiptext {
+    visibility: hidden;
+    width: 500px;
+    background-color: #F8EFE7;
+    color: #222;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 2px;
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the footnote */
+.footnote-link:hover .tooltiptext {
+    visibility: visible;
+}

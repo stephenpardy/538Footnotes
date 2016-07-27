@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "FiveThirtyEight-Hover",
+  "description": "This extension creates hover-over footnote links in 538.",
+  "version": "0.1",
+
+  "content_scripts": [
+    {
+      "matches": ["*://fivethirtyeight.com/*"],
+      "js": ["hover.js"],
+      "css": ["hover.css"]
+    }
+  ]
+}
