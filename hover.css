@@ -1,5 +1,5 @@
 /* Tooltip text */
-.footnote-link .tooltiptext {
+.espn-footnote-link .tooltiptext {
     visibility: hidden;
     width: 500px;
     background-color: #F8EFE7;
@@ -13,6 +13,6 @@
 }
 
 /* Show the tooltip text when you mouse over the footnote */
-.footnote-link:hover .tooltiptext {
+.espn-footnote-link:hover .tooltiptext {
     visibility: visible;
 }
